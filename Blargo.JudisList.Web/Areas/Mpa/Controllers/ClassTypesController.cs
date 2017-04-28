@@ -12,9 +12,9 @@ namespace Blargo.JudisList.Web.Areas.Mpa.Controllers
 {
     public class ClassTypesController : ClassTypesControllerBase
     {
-        private readonly ClassTypeAppService _classTypeAppService;
+        private readonly IClassTypesAppService _classTypeAppService;
 
-        public ClassTypesController(IClassTypeAppService classTypeAppService)
+        public ClassTypesController(IClassTypesAppService classTypeAppService)
         {
             _classTypeAppService = classTypeAppService;
         }

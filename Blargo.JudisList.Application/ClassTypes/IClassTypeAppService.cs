@@ -7,7 +7,7 @@ namespace Blargo.JudisList.ClassTypes
 {
     public interface IClassTypesAppService : IApplicationService
     {
-        ListResultDto<ClassTypeListDto> GetPeople(GetClassTypesInput input);
+        ListResultDto<ClassTypeListDto> GetClassTypes(GetClassTypesInput input);
 
         Task CreateClassType(CreateClassTypeInput input);
 

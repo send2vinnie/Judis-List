@@ -25,7 +25,7 @@ namespace Blargo.JudisList.ClassTypes
             _ClassTypeRepository = ClassTypeRepository;
         }
 
-        public ListResultDto<ClassTypeListDto> GetPeople(GetClassTypesInput input)
+        public ListResultDto<ClassTypeListDto> GetClassTypes(GetClassTypesInput input)
         {
             var ClassTypes = _ClassTypeRepository
                 .GetAll()

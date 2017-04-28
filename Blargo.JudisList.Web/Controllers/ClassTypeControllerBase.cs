@@ -17,7 +17,7 @@ namespace Blargo.JudisList.Web.Controllers
     {
         protected ClassTypesControllerBase()
         {
-            //LocalizationSourceName = ClassTypesConsts.LocalizationSourceName;
+            LocalizationSourceName = JudisListConsts.LocalizationSourceName;
         }
 
         protected void CheckErrors(IdentityResult identityResult)
