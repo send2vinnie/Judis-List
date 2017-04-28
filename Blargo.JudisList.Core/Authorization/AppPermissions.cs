@@ -42,6 +42,9 @@
 
         public const string Pages_Tenant_Dashboard = "Pages.Tenant.Dashboard";
         public const string Pages_Tenant_ClassTypes = "Pages.Tenant.ClassTypes";
+        public const string Pages_Tenant_ClassTypes_Create = "Pages.Tenants.ClassTypes.Create";
+        public const string Pages_Tenant_ClassTypes_Edit = "Pages.Tenants.ClassTypes.Edit";
+        public const string Pages_Tenant_ClassTypes_Delete = "Pages.Tenants.ClassTypes.Delete";
 
         public const string Pages_Administration_Tenant_Settings = "Pages.Administration.Tenant.Settings";
         
