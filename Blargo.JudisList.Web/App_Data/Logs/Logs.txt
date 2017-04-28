@@ -1205,3 +1205,104 @@ DEBUG 2017-04-27 14:53:56,334 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        -
 DEBUG 2017-04-27 14:53:56,429 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 66e8cc72-a024-4064-8122-acaf911a4329
 DEBUG 2017-04-27 14:54:30,836 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d5bb952c-3c40-44e0-9c0f-42ae86190175
 DEBUG 2017-04-27 14:54:50,705 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 66e8cc72-a024-4064-8122-acaf911a4329
+DEBUG 2017-04-27 16:53:54,002 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-27 16:53:54,002 [1    ] Abp.Modules.AbpModuleManager             - Found 20 ABP modules in total.
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Blargo.JudisList.Web.JudisListWebModule, Blargo.JudisList.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Blargo.JudisList.JudisListDataModule, Blargo.JudisList.EntityFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Blargo.JudisList.JudisListCoreModule, Blargo.JudisList.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Blargo.JudisList.JudisListApplicationModule, Blargo.JudisList.Application, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Blargo.JudisList.WebApi.JudisListWebApiModule, Blargo.JudisList.WebApi, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:54,017 [1    ] Abp.Modules.AbpModuleManager             - 20 modules loaded.
+DEBUG 2017-04-27 16:53:54,298 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-27 16:53:54,298 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-27 16:53:54,298 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-27 16:53:54,298 [1    ] o.Configuration.LanguageManagementConfig - Converted JudisList (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-27 16:53:54,751 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Blargo.JudisList.EntityFramework.JudisListDbContext, Blargo.JudisList.EntityFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-27 16:53:57,642 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-04-27 16:53:57,659 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-27 16:53:57,659 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-27 16:53:57,689 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-04-27 16:53:57,705 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: JudisList
+DEBUG 2017-04-27 16:53:57,798 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-27 16:53:59,127 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 35 classes define auto mapping attributes
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Friendships.Cache.FriendCacheItem
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Organizations.Dto.OrganizationUnitDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.MultiTenancy.Dto.TenantEditDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Friendships.Dto.FriendDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Editions.Dto.EditionEditDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Editions.Dto.FlatFeatureDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Editions.Dto.EditionListDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Chat.Dto.ChatMessageDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Chat.Dto.ChatUserDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Authorization.Users.Dto.UserListDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Authorization.Roles.Dto.RoleListDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Auditing.Dto.AuditLogListDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2017-04-27 16:53:59,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Blargo.JudisList.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-04-27 16:53:59,877 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-04-27 16:53:59,908 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2017-04-27 16:53:59,908 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2017-04-27 16:53:59,908 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-04-27 16:53:59,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-04-27 16:53:59,940 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Blargo.JudisList.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2017-04-27 16:54:44,602 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"af72c151-fd85-4612-b1b3-a1c8406ed1a6","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-04-27T23:54:44.5985269Z","Properties":{}}
+DEBUG 2017-04-27 16:54:44,705 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: af72c151-fd85-4612-b1b3-a1c8406ed1a6
+DEBUG 2017-04-27 16:54:47,611 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: af72c151-fd85-4612-b1b3-a1c8406ed1a6
+DEBUG 2017-04-27 16:54:52,761 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"45cc5412-b817-4dcd-b553-6793855a9144","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-04-27T23:54:52.761852Z","Properties":{}}
+DEBUG 2017-04-27 16:54:52,824 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 45cc5412-b817-4dcd-b553-6793855a9144
+DEBUG 2017-04-27 16:54:53,991 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 45cc5412-b817-4dcd-b553-6793855a9144

@@ -1,14 +1,18 @@
-﻿using System.Web.Mvc;
+﻿using System.Threading.Tasks;
+using System.Web.Http;
+using System.Web.Mvc;
 using Abp.Web.Mvc.Authorization;
 using Blargo.JudisList.Authorization;
+using Blargo.JudisList.ClassTypes;
+using Blargo.JudisList.ClassTypes.Dto;
+using Blargo.JudisList.Web.Areas.Mpa.Models.ClassTypes;
 using Blargo.JudisList.Web.Controllers;
-using Blargo.JudisList.Web.Areas.Mpa.Models.ClassType;
 
 namespace Blargo.JudisList.Web.Areas.Mpa.Controllers
 {
-    public class ClassTypesController : JudisListControllerBase
+    public class ClassTypesController : ClassTypesControllerBase
     {
-        private readonly IClassTypeAppService _classTypeAppService;
+        private readonly ClassTypeAppService _classTypeAppService;
 
         public ClassTypesController(IClassTypeAppService classTypeAppService)
         {
@@ -27,6 +31,5 @@ namespace Blargo.JudisList.Web.Areas.Mpa.Controllers
         {
             return PartialView("_CreateClassTypeModal");
         }
-
     }
 }

@@ -2071,6 +2071,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Areas\Mpa\Controllers\ClassTypesController.cs" />
+    <Compile Include="Areas\Mpa\Models\ClassTypes\IndexViewModel.cs" />
+    <Compile Include="Controllers\ClassTypeControllerBase.cs" />
     <Compile Include="Models\Layout\TenantCustomCssViewModel.cs" />
     <Compile Include="Areas\Mpa\Startup\UserMenuItemExtensions.cs" />
     <Compile Include="App_Start\Bundling\CssRewriteUrlWithVirtualDirectoryTransform.cs" />
@@ -2360,6 +2362,7 @@
   <ItemGroup>
     <Folder Include="libs\jquery-jtable\dev\" />
     <Folder Include="libs\jquery-jtable\lib\" />
+    <Folder Include="Views\ClassTypeControllerBase\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Abp\Framework\scripts\abp.d.ts" />
