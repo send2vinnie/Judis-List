@@ -3,6 +3,7 @@ using Abp.AutoMapper;
 
 namespace Blargo.JudisList.ClassTypes.Dto
 {
+    [AutoMapTo(typeof(ClassType))]
     public class CreateClassTypeInput
     {
 

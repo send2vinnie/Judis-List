@@ -7,14 +7,16 @@ using Blargo.JudisList.ClassTypes;
 using Blargo.JudisList.ClassTypes.Dto;
 using Blargo.JudisList.Web.Areas.Mpa.Models.ClassTypes;
 using Blargo.JudisList.Web.Controllers;
+using Abp.Authorization;
 
 namespace Blargo.JudisList.Web.Areas.Mpa.Controllers
 {
-    public class ClassTypesController : ClassTypesControllerBase
+    [AbpAuthorize(AppPermissions.Pages_Tenant_ClassTypes)]
+    public class ClassTypeController : ClassTypesControllerBase
     {
-        private readonly IClassTypesAppService _classTypeAppService;
+        private readonly IClassTypeAppService _classTypeAppService;
 
-        public ClassTypesController(IClassTypesAppService classTypeAppService)
+        public ClassTypeController(IClassTypeAppService classTypeAppService)
         {
             _classTypeAppService = classTypeAppService;
         }

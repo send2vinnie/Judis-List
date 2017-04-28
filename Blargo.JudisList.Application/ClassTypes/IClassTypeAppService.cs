@@ -5,7 +5,7 @@ using Blargo.JudisList.ClassTypes.Dto;
 
 namespace Blargo.JudisList.ClassTypes
 {
-    public interface IClassTypesAppService : IApplicationService
+    public interface IClassTypeAppService : IApplicationService
     {
         ListResultDto<ClassTypeListDto> GetClassTypes(GetClassTypesInput input);
 

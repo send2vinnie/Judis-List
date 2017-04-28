@@ -59,7 +59,10 @@ namespace Blargo.JudisList.Authorization
             //TENANT-SPECIFIC PERMISSIONS
 
             pages.CreateChildPermission(AppPermissions.Pages_Tenant_Dashboard, L("Dashboard"), multiTenancySides: MultiTenancySides.Tenant);
-            pages.CreateChildPermission(AppPermissions.Pages_Tenant_ClassTypes, L("ClassTypes"), multiTenancySides: MultiTenancySides.Tenant);
+
+            var classtypes = pages.CreateChildPermission(AppPermissions.Pages_Tenant_ClassTypes, L("ClassTypes"), multiTenancySides: MultiTenancySides.Tenant);
+            classtypes.CreateChildPermission(AppPermissions.Pages_Tenant_ClassTypes_Create, L("CreatingNewClassType"));
+            classtypes.CreateChildPermission(AppPermissions.Pages_Tenant_ClassTypes_Delete, L("DeletingClassType"));
 
             administration.CreateChildPermission(AppPermissions.Pages_Administration_Tenant_Settings, L("Settings"), multiTenancySides: MultiTenancySides.Tenant);
 

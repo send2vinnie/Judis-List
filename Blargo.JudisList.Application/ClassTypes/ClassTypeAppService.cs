@@ -14,20 +14,20 @@ using Blargo.JudisList.ClassTypes.Dto;
 namespace Blargo.JudisList.ClassTypes
 {
     [AbpAuthorize(AppPermissions.Pages_Tenant_ClassTypes)]
-    public class ClassTypeAppService : JudisListAppServiceBase, IClassTypesAppService
+    public class ClassTypeAppService : JudisListAppServiceBase, IClassTypeAppService
     {
 
-        private readonly IRepository<ClassType> _ClassTypeRepository;
+        private readonly IRepository<ClassType> _classTypeRepository;
 
         public ClassTypeAppService(
             IRepository<ClassType> ClassTypeRepository)
         {
-            _ClassTypeRepository = ClassTypeRepository;
+            _classTypeRepository = ClassTypeRepository;
         }
 
         public ListResultDto<ClassTypeListDto> GetClassTypes(GetClassTypesInput input)
         {
-            var ClassTypes = _ClassTypeRepository
+            var ClassTypes = _classTypeRepository
                 .GetAll()
                 .WhereIf(
                     !input.Filter.IsNullOrEmpty(),
@@ -39,17 +39,17 @@ namespace Blargo.JudisList.ClassTypes
             return new ListResultDto<ClassTypeListDto>(ClassTypes.MapTo<List<ClassTypeListDto>>());
         }
 
-        //[AbpAuthorize(AppPermissions.Pages_Tenant_PhoneBook_CreateClassType)]
+        [AbpAuthorize(AppPermissions.Pages_Tenant_ClassTypes_Create)]
         public async Task CreateClassType(CreateClassTypeInput input)
         {
             var ClassType = input.MapTo<ClassType>();
-            await _ClassTypeRepository.InsertAsync(ClassType);
+            await _classTypeRepository.InsertAsync(ClassType);
         }
 
-        //[AbpAuthorize(AppPermissions.Pages_Tenant_PhoneBook_DeleteClassType)]
+        [AbpAuthorize(AppPermissions.Pages_Tenant_ClassTypes_Delete)]
         public async Task DeleteClassType(EntityDto input)
         {
-            await _ClassTypeRepository.DeleteAsync(input.Id);
+            await _classTypeRepository.DeleteAsync(input.Id);
         }
   
     }

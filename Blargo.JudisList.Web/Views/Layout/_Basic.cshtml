@@ -1,0 +1,44 @@
+﻿@using System.Web.Optimization
+@using Abp.Web.Mvc.Extensions
+@using Abp.Application.Navigation
+@using Abp.Extensions
+@using Blargo.JudisList.Web.Views
+@using Blargo.JudisList.Web.Navigation
+@using Blargo.JudisList.Localization
+@model Blargo.JudisList.Web.Models.Layout.HeaderViewModel
+@{
+    SetAntiForgeryCookie();
+}
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" dir=@(CultureHelper.IsRtl ? "rtl" : "")>
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Judi's List</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta content="JudisList" name="description">
+    <meta content="JudisList" name="keywords">
+    <meta content="JudisList" name="author">
+
+    <link rel="shortcut icon" href="~/favicon.ico">
+    <link href="~/Content/home-bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/home-ionicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/home-style.css" rel="stylesheet" type="text/css" />
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="~/Scripts/ie10-viewport-bug-workaround.js"></script>
+
+</head>
+<body >
+
+    @RenderBody()
+    <script src="~/Scripts/home-jquery.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/retina-1.1.0.js"></script>
+</body>
+</html>

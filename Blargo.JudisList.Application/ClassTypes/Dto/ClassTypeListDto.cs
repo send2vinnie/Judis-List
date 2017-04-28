@@ -4,8 +4,10 @@ using Abp.AutoMapper;
 
 namespace Blargo.JudisList.ClassTypes.Dto
 {
+    [AutoMapFrom(typeof(ClassType))]
     public class ClassTypeListDto : FullAuditedEntityDto
     {
+    
         public string ClassTypeName { get; set; }
 
     }

@@ -1,0 +1,15 @@
+﻿@using Blargo.JudisList.ClassTypes
+@using Blargo.JudisList.Web.Areas.Mpa.Models.Common.Modals
+
+@Html.Partial("~/Areas/Mpa/Views/Common/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("CreateNewClassType")))
+
+<div class="modal-body">
+    <form role="form" novalidate class="form-validation">
+        <div class="form-group form-md-line-input form-md-floating-label no-hint">
+            <input class="form-control" type="text" name="ClassTypeName" required maxlength="20">
+            <label>@L("ClassTypeName")</label>
+        </div>
+    </form>
+</div>
+
+@Html.Partial("~/Areas/Mpa/Views/Common/Modals/_ModalFooterWithSaveAndCancel.cshtml")

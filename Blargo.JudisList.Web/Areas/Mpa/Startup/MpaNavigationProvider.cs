@@ -38,8 +38,8 @@ namespace Blargo.JudisList.Web.Areas.Mpa.Startup
                 ).AddItem(new MenuItemDefinition(
                     PageNames.App.Tenant.ClassTypes,
                     L("ClassTypes"),
-                    url: "Mpa/ClassTypes",
-                    icon: "hlyphicon glyphicon-book",
+                    url: "Mpa/ClassType",
+                    icon: "glyphicon glyphicons-dumbbell",
                     requiredPermissionName: AppPermissions.Pages_Tenant_ClassTypes
                     )
                 ).AddItem(new MenuItemDefinition(

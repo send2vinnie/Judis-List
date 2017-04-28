@@ -1,0 +1,19 @@
+﻿#AllClassTypesList .list-group-item-heading span.classType-buttons {
+    float: right;
+}
+
+#AllClassTypesList .table-phones {
+    display: none;
+}
+
+#AllClassTypesList .classType-editing {
+    background-color: #ccffcc;
+}
+
+    #AllClassTypesList .classType-editing h4 {
+        font-weight: bold;
+    }
+
+    #AllClassTypesList .classType-editing .table-phones {
+        display: table;
+    }

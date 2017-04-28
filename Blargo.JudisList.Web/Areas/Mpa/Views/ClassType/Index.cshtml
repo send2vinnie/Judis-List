@@ -9,12 +9,12 @@
 }
 @section Styles
 {
-    @Html.IncludeStyle("~/Areas/Mpa/Views/ClassTypes/Index.min.css")
+    @Html.IncludeStyle("~/Areas/Mpa/Views/ClassType/Index.min.css")
 }
 @section Scripts
 {
-    @Html.IncludeScript("~/Areas/Mpa/Views/ClassTypes/_CreateClassTypeModal.js")
-    @Html.IncludeScript("~/Areas/Mpa/Views/ClassTypes/Index.js")
+    @Html.IncludeScript("~/Areas/Mpa/Views/ClassType/_CreateClassTypeModal.js")
+    @Html.IncludeScript("~/Areas/Mpa/Views/ClassType/Index.js")
 }
 <div class="row margin-bottom-5">
     <div class="col-xs-6">
@@ -61,12 +61,12 @@
                     <h4 class="list-group-item-heading">
                         @ClassType.ClassTypeName
                         <span class="ClassType-buttons">
-                            <button title="@L("Edit")" class="btn btn-circle btn-icon-only green edit-ClassType">
+                            @*<button title="@L("Edit")" class="btn btn-circle btn-icon-only green edit-classType">
                                 <i class="icon-pencil"></i>
-                            </button>
+                            </button>*@
                             @if (IsGranted(AppPermissions.Pages_Tenant_ClassTypes_Delete))
                             {
-                                <button title="@L("Delete")" class="btn btn-circle btn-icon-only red delete-ClassType" href="javascript:;">
+                                <button title="@L("Delete")" class="btn btn-circle btn-icon-only red delete-classType" href="javascript:;">
                                     <i class="icon-trash"></i>
                                 </button>
                             }

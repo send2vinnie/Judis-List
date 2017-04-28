@@ -425,6 +425,10 @@
     <Content Include="Abp\Framework\styles\abp.mixings.min.css" />
     <Content Include="Abp\Framework\styles\utils\ie10fix.css" />
     <Content Include="Areas\Mpa\Common\Scripts\readme.txt" />
+    <Content Include="Areas\Mpa\Views\ClassType\Index.css" />
+    <Content Include="Areas\Mpa\Views\ClassType\Index.js" />
+    <Content Include="Areas\Mpa\Views\ClassType\Index.min.css" />
+    <Content Include="Areas\Mpa\Views\ClassType\_CreateClassTypeModal.js" />
     <Content Include="Common\Images\app-logo-small.png" />
     <Content Include="Common\Scripts\jquery-validation-custom.js" />
     <Content Include="Areas\Mpa\Views\Layout\_ChatBar.css">
@@ -582,13 +586,22 @@
     <Content Include="Common\Styles\core.min.css">
       <DependentUpon>core.css</DependentUpon>
     </Content>
+    <Content Include="Content\Calendar.jpg" />
+    <Content Include="Content\Class.jpg" />
+    <Content Include="Content\dancers.jpg" />
+    <Content Include="Content\home-bootstrap.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\fonts-open-sans.css" />
     <Content Include="Content\fonts-ptsans-narrow.css" />
     <Content Include="Content\fonts-sourcesans-pro.css" />
+    <Content Include="Content\home-ionicons.min.css" />
+    <Content Include="Content\home-style.css" />
+    <Content Include="Content\JLLogo.png" />
+    <Content Include="Content\LoginButton.png" />
     <Content Include="Content\ui-bootstrap-csp.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\ionicons.svg" />
     <Content Include="libs\bootstrap-daterangepicker\daterangepicker.css" />
     <Content Include="libs\bootstrap-daterangepicker\daterangepicker.js" />
     <Content Include="libs\bootstrap-hover-dropdown\bootstrap-hover-dropdown.js" />
@@ -2021,6 +2034,10 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\ie10-viewport-bug-workaround.js" />
+    <Content Include="Scripts\home-jquery.min.js" />
+    <Content Include="Scripts\retina-1.1.0.js" />
     <Content Include="Views\Layout\_TenantCustomCss.cshtml" />
     <Content Include="libs\jquery-jtable\.npmignore" />
     <Content Include="libs\jquery-jtable\bower.json" />
@@ -2031,7 +2048,12 @@
     <Content Include="Abp\Framework\styles\abp.mixings.css.map" />
     <Content Include="Abp\Framework\styles\abp.less" />
     <Content Include="Abp\Framework\styles\abp.css.map" />
-    <Content Include="Areas\Mpa\Views\ClassTypes\Index.cshtml" />
+    <Content Include="Areas\Mpa\Views\ClassType\Index.cshtml" />
+    <Content Include="Areas\Mpa\Views\ClassType\_CreateClassTypeModal.cshtml" />
+    <Content Include="Areas\Mpa\Views\ClassType\Index.less" />
+    <Content Include="fonts\ionicons.eot" />
+    <Content Include="fonts\ionicons.ttf" />
+    <Content Include="fonts\ionicons.woff" />
     <None Include="Properties\PublishProfiles\aspnetzero - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\jquery-1.6.4.js" />
@@ -2331,6 +2353,7 @@
     <Content Include="Scripts\version.json" />
     <Content Include="Views\Account\_AppLogo.cshtml" />
     <Content Include="Views\Account\_TenantCustomCss.cshtml" />
+    <Content Include="Views\Layout\_Basic.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
